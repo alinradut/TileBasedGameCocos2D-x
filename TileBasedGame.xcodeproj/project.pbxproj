@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BAB657613FC3F1100B4123E /* hit.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB656F13FC3F1100B4123E /* hit.caf */; };
+		3BAB657713FC3F1100B4123E /* meta_tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB657013FC3F1100B4123E /* meta_tiles.png */; };
+		3BAB657813FC3F1100B4123E /* move.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB657113FC3F1100B4123E /* move.caf */; };
+		3BAB657913FC3F1100B4123E /* pickup.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB657213FC3F1100B4123E /* pickup.caf */; };
+		3BAB657A13FC3F1100B4123E /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB657313FC3F1100B4123E /* Player.png */; };
+		3BAB657B13FC3F1100B4123E /* TileMap.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB657413FC3F1100B4123E /* TileMap.caf */; };
+		3BAB657C13FC3F1100B4123E /* tmw_desert_spacing.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB657513FC3F1100B4123E /* tmw_desert_spacing.png */; };
 		505574581045D68500A31725 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506EDBA4102F4C9F00A389B3 /* AVFoundation.framework */; };
 		505574591045D68500A31725 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		5055745A1045D68500A31725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -290,6 +297,13 @@
 /* Begin PBXFileReference section */
 		1D6058910D05DD3D006BFB54 /* TileBasedGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileBasedGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F3B9A820EF2151B00286867 /* TileBasedGame_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileBasedGame_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		3BAB656F13FC3F1100B4123E /* hit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hit.caf; sourceTree = "<group>"; };
+		3BAB657013FC3F1100B4123E /* meta_tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meta_tiles.png; sourceTree = "<group>"; };
+		3BAB657113FC3F1100B4123E /* move.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = move.caf; sourceTree = "<group>"; };
+		3BAB657213FC3F1100B4123E /* pickup.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pickup.caf; sourceTree = "<group>"; };
+		3BAB657313FC3F1100B4123E /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
+		3BAB657413FC3F1100B4123E /* TileMap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TileMap.caf; sourceTree = "<group>"; };
+		3BAB657513FC3F1100B4123E /* tmw_desert_spacing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tmw_desert_spacing.png; sourceTree = "<group>"; };
 		506EDB87102F4C4000A389B3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		506EDBA4102F4C9F00A389B3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		506EE05E10304ED200A389B3 /* libcocos2d libraries.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocos2d libraries.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -666,6 +680,13 @@
 		BF1915B912E04F70007DCFF1 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3BAB656F13FC3F1100B4123E /* hit.caf */,
+				3BAB657013FC3F1100B4123E /* meta_tiles.png */,
+				3BAB657113FC3F1100B4123E /* move.caf */,
+				3BAB657213FC3F1100B4123E /* pickup.caf */,
+				3BAB657313FC3F1100B4123E /* Player.png */,
+				3BAB657413FC3F1100B4123E /* TileMap.caf */,
+				3BAB657513FC3F1100B4123E /* tmw_desert_spacing.png */,
 				BF1915BA12E04F70007DCFF1 /* CloseNormal.png */,
 				BF1915BB12E04F70007DCFF1 /* CloseSelected.png */,
 				BF1915BC12E04F70007DCFF1 /* Default.png */,
@@ -1352,6 +1373,13 @@
 				BF1915CC12E04F70007DCFF1 /* Icon.png in Resources */,
 				BF1915CD12E04F70007DCFF1 /* Icon@2x.png in Resources */,
 				BF19164212E052E1007DCFF1 /* LICENSE.cocos2d-x in Resources */,
+				3BAB657613FC3F1100B4123E /* hit.caf in Resources */,
+				3BAB657713FC3F1100B4123E /* meta_tiles.png in Resources */,
+				3BAB657813FC3F1100B4123E /* move.caf in Resources */,
+				3BAB657913FC3F1100B4123E /* pickup.caf in Resources */,
+				3BAB657A13FC3F1100B4123E /* Player.png in Resources */,
+				3BAB657B13FC3F1100B4123E /* TileMap.caf in Resources */,
+				3BAB657C13FC3F1100B4123E /* tmw_desert_spacing.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
