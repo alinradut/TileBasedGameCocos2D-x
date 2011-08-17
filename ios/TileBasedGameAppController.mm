@@ -9,7 +9,7 @@
 #import "TileBasedGameAppController.h"
 #import "cocos2d.h"
 #import "EAGLView.h"
-#import "TileBasedGameAppDelegate.h"
+#import "AppDelegate.h"
 
 @implementation TileBasedGameAppController
 
