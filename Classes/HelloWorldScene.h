@@ -20,16 +20,17 @@ public:
 
 	// there's no 'id' in cpp, so we recommand to return the exactly class pointer
 	static cocos2d::CCScene* scene();
-	
-	// a selector callback
-	virtual void menuCloseCallback(CCObject* pSender);
 
+	void setViewpointCenter(cocos2d::CCPoint point);
+	
 	// implement the "static node()" method manually
 	LAYER_NODE_FUNC(HelloWorld);
     
     CC_SYNTHESIZE(cocos2d::CCTMXTiledMap*, _tileMap, TileMap);
     
     CC_SYNTHESIZE(cocos2d::CCTMXLayer*, _background, Background);
+	
+	CC_SYNTHESIZE(cocos2d::CCSprite *, _player, Player);
 };
 
 #endif // __HELLOWORLD_SCENE_H__
